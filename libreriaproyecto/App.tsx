@@ -18,7 +18,7 @@ const handleOnLogout = () => {
 
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text></Text>
       <StatusBar style="auto" />
       <CustomButtom title={'Login'} onClick={()=>{handleOnLogin}}/>
       <CustomButtom title={'Salir'} onClick={()=>{handleOnLogout}}/>
@@ -33,4 +33,18 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  buttonsWrapper: {
+    marginTop: 15,
+    height: "35%",
+    alignItems: "center",
+    justifyContent: "space-around",
+  },
+
+  card: {
+    backgroundColor: "#f3f4f6",
+    height: "80%",
+    width: "80%",
+    borderRadius: "15",
+  }
 });
