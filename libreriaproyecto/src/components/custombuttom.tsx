@@ -32,7 +32,7 @@ container: {
     alignItems: 'center'
 },
 text: {
-    color: variant === "primary" ? "white": "black",
+    color: variant === "primary" ? "white": "blue",
     fontSize: 18,
     fontWeight: "500"
 }
